@@ -114,4 +114,4 @@ Este repositorio personal reúne material de presentación del caso.
 
 ## Contenido y acceso
 
-Repositorio dedicado a documentación y material visual del portfolio. No contiene código fuente, datasets, modelos entrenados ni historial del repositorio de desarrollo. No se ha añadido una licencia de código.
+Repositorio dedicado a documentación y material visual del portfolio. No contiene código fuente, datasets, modelos entrenados ni historial del repositorio de desarrollo. Consulta el [aviso de derechos y reutilización](DERECHOS.md). El material original se presenta con reserva de derechos, respetando los derechos de terceros y las condiciones de GitHub.
