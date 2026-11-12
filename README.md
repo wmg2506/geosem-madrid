@@ -42,6 +42,31 @@ Para 2023–2025, con al menos 24 de 36 meses de consumo, el proceso de energía
 
 En el mapa, el aro azul identifica evidencia fotovoltaica y conserva el color de prioridad del edificio. La ausencia de enlace fotovoltaico no acredita ausencia de instalación.
 
+
+## La aplicación en imágenes
+
+### Resumen del parque municipal
+
+![Cobertura del parque municipal](assets/resumen.png)
+
+### Evaluación del modelo
+
+![Comparación de modelos y consumo observado frente a predicción](assets/modelo.png)
+
+### Consulta de un edificio
+
+![Ficha del CC Federico Chueca: consumo, localización y contexto GEO](assets/ficha.png)
+
+### Criterios de prioridad
+
+![Selección de periodo y ponderación de criterios](assets/criterios.png)
+
+### Mapa y explicación del ranking
+
+![Mapa de edificios y aportación de criterios al Top 10](assets/mapa_ranking.png)
+
+Las imágenes corresponden a la aplicación del TFM. Muestran resultados de consultas concretas, cuya cobertura depende del periodo y de los requisitos elegidos.
+
 ## Cómo se construye la evidencia
 
 El proyecto integra energía, meteorología y capas territoriales mediante módulos Python reutilizables y once notebooks. Separa cronológicamente entrenamiento, validación y test y contrasta los modelos con referencias temporales. Dispone de controles del pipeline y de un control adicional de la interfaz.
@@ -63,9 +88,9 @@ Las mejoras propuestas incluyen validación temporal con ventanas deslizantes, a
 
 ## Procedencia y autoría
 
-GEOSEM Madrid tiene su origen en un TFM presentado por Marta González Vázquez, Carlos Fernando Otálvaro Giraldo, Andrés Felipe Castaño Cahuana y Pablo Arturo Guerra Vidal. Esta referencia identifica la autoría declarada de la entrega académica y no atribuye por igual la ejecución de cada componente.
+GEOSEM Madrid tiene su origen en un TFM presentado por Marta González Vázquez, Carlos Fernando Otálvaro Giraldo, Andrés Felipe Castaño Cahuana y Pablo Arturo Guerra Vidal.
 
-Este repositorio personal reúne material de presentación del caso. La descripción de las contribuciones individuales se concretará antes de su difusión pública.
+Este repositorio personal reúne material de presentación del caso.
 
 ## Contenido y acceso
 
