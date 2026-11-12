@@ -6,6 +6,20 @@ Portfolio de Marta González Vázquez. Caso de estudio basado en el Trabajo Fin 
 
 GEOSEM reúne datos abiertos para consultar el consumo eléctrico de edificios municipales, evaluar su consumo esperado y comparar prioridades de revisión con criterios explícitos. La aplicación permite pasar de la visión del parque a la consulta de un edificio y explorar cómo cambia el ranking al modificar periodos y ponderaciones.
 
+<p align="center">
+  <strong>Datos abiertos de Madrid · Analítica energética · Apoyo a la decisión</strong>
+</p>
+
+<p align="center">
+  <a href="GEOSEM_Madrid_Portfolio.pdf"><strong>Ver presentación del proyecto en PDF</strong></a>
+  &nbsp; · &nbsp;
+  <a href="#recorrido-visual">Explorar la aplicación en imágenes</a>
+</p>
+
+![Mapa de prioridades de revisión y aportación de cada criterio al Top 10](assets/mapa_ranking.png)
+
+*El mapa sitúa los edificios y el Top 10 explica qué aporta cada criterio. El aro azul indica evidencia fotovoltaica y conserva el color de prioridad.*
+
 ## Alcance del proyecto
 
 | Dimensión | Resultado documentado |
@@ -43,29 +57,35 @@ Para 2023–2025, con al menos 24 de 36 meses de consumo, el proceso de energía
 En el mapa, el aro azul identifica evidencia fotovoltaica y conserva el color de prioridad del edificio. La ausencia de enlace fotovoltaico no acredita ausencia de instalación.
 
 
-## La aplicación en imágenes
+## Recorrido visual
 
-### Resumen del parque municipal
+### 01. Entender el parque municipal
 
-![Cobertura del parque municipal](assets/resumen.png)
+El resumen ejecutivo muestra el universo de edificios, la cobertura disponible y los resultados del modelo.
 
-### Evaluación del modelo
+![Resumen ejecutivo: edificios y cobertura de priorización](assets/resumen.png)
+
+### 02. Consultar el comportamiento del modelo
+
+La comparación en validación y la evolución observada frente a la estimada ayudan a interpretar el resultado predictivo.
 
 ![Comparación de modelos y consumo observado frente a predicción](assets/modelo.png)
 
-### Consulta de un edificio
+### 03. Revisar un edificio
 
-![Ficha del CC Federico Chueca: consumo, localización y contexto GEO](assets/ficha.png)
+La ficha permite consultar su consumo histórico y su localización junto a la evidencia técnica disponible.
 
-### Criterios de prioridad
+<p align="center">
+  <img src="assets/ficha.png" alt="Ficha del CC Federico Chueca con consumo, mapa y contexto GEO" width="650">
+</p>
 
-![Selección de periodo y ponderación de criterios](assets/criterios.png)
+### 04. Comparar criterios de prioridad
 
-### Mapa y explicación del ranking
+El usuario elige el periodo, los requisitos de información y el peso de cada criterio. Los pesos cambian el orden de revisión, no la elegibilidad.
 
-![Mapa de edificios y aportación de criterios al Top 10](assets/mapa_ranking.png)
+![Selector de periodo y ponderación de energía, criterio técnico y contexto social](assets/criterios.png)
 
-Las imágenes corresponden a la aplicación del TFM. Muestran resultados de consultas concretas, cuya cobertura depende del periodo y de los requisitos elegidos.
+Las capturas muestran consultas concretas de la aplicación del TFM. La cobertura depende del periodo y de los requisitos elegidos.
 
 ## Cómo se construye la evidencia
 
